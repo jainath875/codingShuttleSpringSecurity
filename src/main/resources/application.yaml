@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: securityApplication
+  datasource:
+    url: JDBC:mysql://localhost:3306/security-app?useSSL=false
+    username: root
+    password: Jai8757@
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+
+#security configs
+#spring.security.user.name: jainath
+#spring.security.user.password: password
