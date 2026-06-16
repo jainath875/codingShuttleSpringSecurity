@@ -18,3 +18,5 @@ spring:
 #security configs
 #spring.security.user.name: jainath
 #spring.security.user.password: password
+
+jwt.secretKey: sdfsd748758454djsfkjsdkfjs445ksdhfjsdhjfjksdhfjksdjhfjklhsdjkfhsdjkfhsd
